@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pramish Poudel Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005fa3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .section h2 {
+            font-size: 1.8em;
+            color: #0077cc;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pramish Poudel Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="content">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Pramish Poudel, a passionate developer with a focus on building cutting-edge online learning systems using React.js and Spring Boot. With a strong background in AI, I aim to create innovative and impactful solutions.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <ul>
+                <li>Online Learning System (React.js & Spring Boot)</li>
+                <li>AI Research and Development</li>
+                <li>Volunteer Work with 'Jana Uthan Sastha' - Health Awareness Projects</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Email: pramish@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/pramishpoudel" target="_blank">linkedin.com/in/pramishpoudel</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pramish Poudel. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
